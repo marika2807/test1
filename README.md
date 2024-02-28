@@ -2,7 +2,7 @@
 1  Создан репозиторий test1
 2 Создана блок-схема 
 3 Создан файл README.md, в котором сейчас находитесь.
-4 ПНаписана программа (использованы функция для ввода и вывода массива)
+4 Написана программа (использованы функция для ввода и вывода массива)
 
 ListOfCommands();
 string[] array = new string[] {};
@@ -47,7 +47,7 @@ PrintArray(array);
 Console.Write("→ ");
 PrintArray(newArray);
 
-void ListOfCommands()    //Вывод команд для выбора
+void ListOfCommands()    
 {
     Console.WriteLine();
     Console.WriteLine("СПИСОК КОМАНД:");
@@ -57,13 +57,13 @@ void ListOfCommands()    //Вывод команд для выбора
     Console.WriteLine();
 }
 
-string ReadInput(string msg)  // Функция ввода
+string ReadInput(string msg)  
 {
     Console.Write(msg);
     return Console.ReadLine();
 }
 
-void PrintArray(string[] array)  // Функция вывода массива
+void PrintArray(string[] array)  
 {
     Console.Write("[ ");
     for (int i = 0; i < array.Length; i++)
